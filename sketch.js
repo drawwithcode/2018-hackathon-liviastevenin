@@ -112,7 +112,7 @@ function draw() {
     rotate(myRate * 4);
     line(300, 0, cos(myRate * 3) * 300, sin(myRate * 3) * 300);
 
-    strokeWeight(5);
+    strokeWeight(2);
     stroke(lerpColor(color('#ea0043'), color('#0fefca'), frameCount / 120));
     noFill();
 

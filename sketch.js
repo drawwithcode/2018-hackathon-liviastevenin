@@ -134,7 +134,7 @@ function mouseClicked() {
   if (mySong.isPlaying()) {
     mySong.pause();
      clear();
-      background(0);
+     background(0);
   } else {
     mySong.play();
   }

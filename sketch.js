@@ -23,7 +23,7 @@ function setup() {
   // put setup code here
   createCanvas(windowWidth, windowHeight);
   angleMode(CENTER);
-  background(myBack, 0, 0, width, height);
+  background(myBack, 0, 0, image.width, image.height);
 
   fft = new p5.FFT(0, 256);
   analyzer = new p5.Amplitude();
@@ -31,7 +31,8 @@ function setup() {
 
   //texts
   fill('white');
-  text('Click to start and stop the music', width / 2, height - 50);
+  text('Click to start and stop the music', width / 2.30, height - 30);
+  textAlign(CENTER);
   textSize(20);
   //mySong.play();
 
